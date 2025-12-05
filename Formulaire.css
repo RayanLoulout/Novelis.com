@@ -1,0 +1,90 @@
+:root {
+  --novelis-yellow: #3498db;
+  --novelis-red: #3498db;
+  --bg: #3498db;
+  --text: #333;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: var(--novelis-red);
+  margin-bottom: 1em;
+}
+
+h2 {
+  color: var(--novelis-yellow);
+  margin-top: 1.5em;
+  border-bottom: 2px solid var(--novelis-yellow);
+  padding-bottom: 4px;
+}
+
+label {
+  display: block;
+  margin-top: 0.8em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+textarea,
+
+select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+textarea {
+  resize: vertical;
+  height: 80px;
+}
+
+.checkbox-group label {
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 0.5em;
+}
+
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+button[type="submit"] {
+  margin-top: 1.8em;
+  background-color: var(--novelis-red);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1.1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3;
+
+}
+
+button[type="submit"]:hover {
+  background-color: var(--novelis-yellow);
+  color: var(--novelis-red);
+}

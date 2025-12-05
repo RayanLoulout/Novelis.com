@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  background: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+  padding: 20px;
+}
+
+.message {
+  font-size: 2.5em;
+  color: #0077b6;
+  animation: zoomIn 1.5s ease forwards;
+}
+
+
+
+.sous-texte {
+  font-size: 1.2em;
+  margin-top: 10px;
+  animation: fadeIn 2s ease forwards 1s;
+}
+
+
+
+.btn-retour {
+  display: inline-block;
+  margin-top: 25px;
+  background: #0077b6;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+.btn-retour:hover {
+  background: #023e8a;
+}
+
